@@ -23,7 +23,7 @@ export default {
   },
   pre: {
     '/api/': {
-      target: 'your pre url',
+      target: 'http://43.248.186.99:9999',
       changeOrigin: true,
       pathRewrite: { '^': '' },
     },
